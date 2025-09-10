@@ -1,0 +1,9 @@
+apiVersion: porch.kpt.dev/v1alpha1
+kind: PackageRevision
+metadata:
+  labels:
+    app.kubernetes.io/name: porch-operator
+    app.kubernetes.io/managed-by: kustomize
+  name: packagerevision-sample
+spec:
+  # TODO(user): Add fields here
